@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="gamer.css" />
+<title> Gamer </title>
+<script type="text/javascript" src="jquery.js"> </script>
+
+<script type="text/javascript" src="gamer_client.js"> </script>
+</head>
+<body>
+
+	
+<div id="content">
+	<div id="left_panel">
+		
+		<p class="panel_intro" >
+			ADMIN PANEL
+		</p>
+		
+		<p class="panel_text" >
+			Games:
+		</p>
+			<ul id="game_list">
+				<li> <a href="#" > Game 1 </a> </li>
+			</ul>
+			<p></p>
+		<p class="panel_text">
+			Players:
+		</p>
+			<ul id="player_list">
+				<li> <a href="#" > Player 1 </a> </li>
+			</ul>
+				<div id="search_area">
+					<form action="#" id="search_form" >
+					<input class="search" name="nickname" id="nickname" type="text" />
+						<div class="commands">
+							<input id="search_button" type="button" value="Search" />
+						</div>
+					</form>
+				</div>
+					
+		<p class="panel_text">
+			Messages:
+		</p>
+		<p class="panel_link">
+			<a href="#" id="messages_link"> <span id="messagesurl"> </span> To messages </a>
+		</p>
+			
+		<p class="panel_text">
+			Service log:
+		</p>
+		
+		<p class="panel_link">
+			<a href="#log"> <span id="servicelog"> </span> To log </a>
+		</p>
+		
+		<p class="panel_text">
+			Logout:
+		</p>
+		
+		<p class="panel_link">
+			<a href="#logout"> <span id="logout"> </span> Logout </a>
+		</p>
+		
+	</div>
+	
+	<div id="main_content">
+	
+	<div id="game">
+		<div id="game_information">
+			<div class="players"><img src="player1.png" alt=""> 
+				<a href="#" id="#player1"> <span id="player1"> </span> Player 1 </a> <p> </p> 
+					<img src="player2.png" alt=""> <a href="#" id="#player2"> <span id="player2"> </span> Player 2 </a> </div>
+						<div class="turn_text"> Turn: <p></p> <a href="#" id="#player_turn"> Player1 </a> 
+						</div>
+			</div>		
+		<div id="game_content">
+			<div id="game_board">
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+				<div class="square"> </div>
+			</div>
+		</div>	
+		
+		<div class="bottom_part">
+		
+			<div id="chat_window">
+				<form action="#" id="text_area_form">
+					<textarea id="chat_box" readonly="readonly" placeholder="chat_box">
+					</textarea>
+				</form>
+			</div>
+				<div id="chat_form">
+					<form action="#" id="chat_form_text">
+						<input class="chat" name="chat" id="chat" type="text" />
+							<div class="commands">
+								<input id="send_button" type="button" value="Send" />
+							</div>
+					</form>
+				</div>
+		</div>
+		</div>
+		
+		
+		<div id="player_information">
+			<h3> Player profile </h3>
+			<div id="player">
+				<form action="#" id="player_form">
+					<input class="playerid" name="playerid" id="playerid" type="text" hidden/><p></p>
+						<label for="username"> Username </label>
+							<input class="username" name="username" id="username" type="text" readonly/><p></p>
+						<label for="nickname"> Nickname </label>
+							<input class="nickname" name="nickname" id="profile_nickname" type="text"/><p></p>
+						<label for="basic_information"> Basic information </label>
+							<input class="basic_information" name="basic_information" id="basic_information" type="text"/><p></p>
+							<input type="button" id="save_button" value="Save"/>
+						</textarea>
+				</form>
+			</div>
+		</div>
+		<div id="service_log">
+		
+		</div>
+		
+		<div id="messages_list_divider">
+			<div id="messages">
+				<p class="message_title"> Messages </p>
+				<ul id="message_list">
+				<li> <a href="#" > Message 1 </a> </li>
+			</ul>
+			
+			</div>
+		
+			
+		<div class="bottom_part">
+		<p class = "message_title"> Message </p>
+			<div id="message_title">
+			<span class="message_title"> Message title </span>
+				<input class="title" name="#title" id="#title" type="text" />
+			</div>
+				<div id="post_message_window">
+					<form action="#" id="text_area_form_post">
+						<textarea id="#post" placeholder="post">
+						</textarea>
+					</form>
+				</div>
+			
+			<div id ="post_form">
+							<div class="commands">
+								<input id="post_button" type="button" value="post" />
+							</div>
+					</div>
+		</div>
+			</div>
+	</div>
+	
+</div>
+
+
+</body>
+
+</html>

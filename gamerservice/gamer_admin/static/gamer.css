@@ -1,0 +1,214 @@
+div#left_panel {
+display: block;
+}
+
+div#game_content {
+float: center;
+}
+div#player_information {
+	width: 600px;
+	height: 500px;
+	text-align: left;
+
+}
+
+#username {
+
+
+}
+h3 {
+	margin: 100px;
+	padding-left: 200px;
+}
+
+#basic_information {
+
+}
+
+div#player {
+padding-left: 100px;
+
+}
+div#game_board {
+width: 250px;
+height: 250px;
+padding-left: 250px;
+}
+
+textarea {
+width: 245px;
+height: 150px;
+overflow: scroll;
+margin-left: 250px;
+margin-top: 20px;
+}
+
+div#chat_form {
+width: 250px;
+height: 20%;
+margin-left: 250px;
+
+}
+div#post_form {
+width: 200px;
+height: 100%;
+margin-left: 200px;
+margin-bottom: 100px;
+
+}
+div#chat_window {
+width: 800px;
+height: 80%;
+}
+
+div#game_information {
+width: 800px;
+height: 200px; 	
+}
+div#bottom_part {
+width: 800px;
+height: 242px;
+float: center;
+}
+
+.turn_text {
+float: right;
+margin-right: 50px;
+margin-top: 50px;
+}
+
+img {
+vertical-align: middle;	
+}
+
+.players{
+float: left;
+margin-left: 50px;
+margin-top: 50px;
+
+}
+
+.square{
+display: table-cell;
+height: 50px;
+width: 50px;
+outline: 1px solid;
+float: left;
+}
+
+#content {
+display: table;
+height: 100%;
+width: 1000px; 
+padding-left: 100px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+#main_content {
+display: table;
+height: 100%;
+width: 800px;
+border: 2px solid #ccc;
+}
+
+ul li {
+
+    border:4px solid white;
+    margin:0;
+    padding:0;
+}
+
+ul#player_list, #game_list {
+display: table-cell;
+height: 100px;
+width: 100px;
+border: 2px solid #ccc;
+font: 16px/26px; Georgia, Garamond, Serif;
+
+}
+
+ul#message_list {
+	display: table_cell;
+	height: 250px;
+	width: 600px;
+	font: 16px/26px; Georgia, Garamond, Serif;
+	overflow: auto;
+}
+
+div#left_panel {
+display: table-cell;
+padding-top: 50px;
+padding-bottom: 50px;
+border: 2px solid #ccc;
+float: left;
+}
+
+#username {
+width: 5em;
+}
+#nickname {
+width: 5em;
+font: 12;
+}
+#chat {
+width: 14em;
+}
+#post {
+width: 20em;
+height: 15em;
+
+}
+div#search_area {
+padding-left: 2px;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+.commands {
+float: right;
+}
+.panel_text {
+font-style: oblique;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 1px;
+}
+.panel_link {
+font-style: oblique;
+text-align: center;
+margin-top: 1px;
+}
+.panel_intro {
+font-style: oblique;
+text-align: center;	
+margin-top: 2px;
+}
+
+.message_title {
+text-align: center;
+}
+
+
+div#messages {
+
+width: 800px;
+height: 335px;
+}
+
+div#messages_list_divider {
+width: 800px;
+height: 350px;
+border: 2px solid #ccc;
+}
+
+div#post_message_window {
+width: 800px;
+height: 242px;
+
+}
+div#message_title {
+width: 800px;
+height: 20px; 	
+padding-left: 250px;
+
+}
